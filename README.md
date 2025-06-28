@@ -16,6 +16,13 @@ where `/path/to/libtorch` should be the path to the unzipped _LibTorch_
 distribution, which you can get from the [PyTorch
 homepage](https://pytorch.org/get-started/locally/).
 
+Download the MNIST dataset:
+```
+cd data
+python download_mnist.py
+cd ..
+```
+
 Execute the compiled binary to train the model:
 
 ```shell
@@ -34,4 +41,3 @@ Test set: Average loss: 0.0875 | Accuracy: 0.972
 ## Credit
 
 https://github.com/pytorch/examples/tree/main/cpp/mnist
-
